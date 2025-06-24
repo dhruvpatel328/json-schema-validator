@@ -5,7 +5,6 @@ Python script to validate JSON metadata against a schema:
 def validate_metadata(schema, metadata):
     errors = []
 
-
     # Step 1: Check each field in the schema
     for field, rules in schema.items():
         # Required field check
